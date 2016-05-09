@@ -1,3 +1,2 @@
 # kiscall.github.io
-> This is my first blog.
-> demo.
+> This is my test of github.io.

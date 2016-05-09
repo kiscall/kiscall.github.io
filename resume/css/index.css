@@ -1,0 +1,167 @@
+/* default style */
+html,body,div,span,img,li,a{
+	padding: 0;
+	margin: 0;
+	font: 14px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+}
+div,img{
+	border: none;
+}
+a{
+	text-decoration: none;
+}
+li{
+	font-size: 17px;
+}
+.right{
+	float: right;
+	width: 51%;
+	margin-bottom: 10px;
+}
+.left{
+	float: left;
+	width: 48%;
+	margin-bottom: 20px;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.clear:{
+	zoom: 1;
+}
+.block-center{
+	margin: 0 auto;
+}
+.main-container{
+	width: 980px;
+	background: #F0F0F0;
+	margin: 30px auto 4px auto;
+	box-shadow: 0 0 1em #BFB;
+	margin-bottom: 15px;
+}
+.header{
+	height: 200px;
+	position: relative;
+	border-bottom: 2px solid #ccc;
+}
+.basic-info{
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	margin: auto;
+	height: 70%;
+	font-size: 24px;
+	line-height: 30px;
+	margin-left: 50px;
+}
+.name{
+	font-size: 72px;
+	color: #000;
+	font-weight: bolder;
+}
+.occu{
+	color: #93c47d;
+}
+.photo{
+	width: 150px;
+	height: 160px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	right: 50px;
+	margin-top: -80px;
+	transform: rotate(0deg);
+	transition: all 1s;
+}
+.photo:hover{
+	transform: rotate(360deg);
+}
+/* content style */
+.main-content{
+	width: 100%;
+	position: relative;
+}
+.items{
+	border-left: 3px solid #93c47d;
+	margin-top: 25px;
+	margin-left: 10px;
+	width: 90%;
+}
+.items .title{
+	width: 100%;
+	background-color: #93c47d;
+	height: 30px;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 30px;
+	padding-left: 20px;
+	border-bottom-right-radius: 15px;
+}
+.items .info{
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 14px !important;
+	line-height: 30px;
+	margin-left: 35px;
+}
+/* iconfont */
+@font-face {font-family: 'iconfont';
+  src: url('iconfont/iconfont.eot'); /* IE9*/
+  src: url('iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.contact{
+	margin: 35px auto 0px 40px;
+	width: 30%;
+}
+.contact li{
+	list-style-type: none;
+	font-size: 20px;
+}
+.contact li a{
+	font-size: 20px;
+	color: black;
+}
+.strong{
+	color: #93c47d;
+	font-weight: 600;
+	margin: 0 5px;
+	font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
